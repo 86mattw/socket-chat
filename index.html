@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Game</title>
+</head>
+<body>
+    <h1>Hi there <span class="username"></span></h1>
+
+    <form class="form">
+        <label> Your name:
+        <input class="username-input" type="text" />
+        </label>
+    </form>
+
+    <div>
+        <h2>active users</h2>
+        <ul class="user-list"></ul>
+    </div>
+
+    <button class="btn">click me</button>
+    <div class="output"></div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="static/index.js"></script>
+</body>
+</html>
